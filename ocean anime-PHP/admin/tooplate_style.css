@@ -1,0 +1,373 @@
+/* 
+Template 2066 Wood Stock
+http://www.tooplate.com/view/2066-wood-stock 
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px; 
+	background: url(images/bg\ admin.png) ;
+    background-attachment: fixed; /* Keeps the background image fixed */
+	background-size: cover; /* Adjust to cover the entire element */
+	background-attachment: fixed; /* Keeps the background image fixed */
+	
+	background-repeat: no-repeat; /* Prevent the image from repeating */
+	height: 100vh; /* Full viewport height */
+	width: 100%;
+	position: relative; /* Ensure it stays within the flow of the page */
+    
+}
+
+/* Basic input styling */
+.input-admin {
+	border: none;
+  outline: none;
+  border-radius: 5px;
+  color:#fff;
+  padding: 1em;
+  background-color: #f10d0d40;
+  transition: 300ms ease-in-out;
+}
+
+/* Hover effect */
+.input-admin:hover {
+	transform: scale(1.05);
+}
+
+
+.button-login{
+	/* Basic button styling */
+	margin-top: 10px;
+    background-color: #3498db; /* Button color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline from text */
+    display: inline-block; /* Inline block for better spacing */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.button-login:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-weight: 400;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 { 
+    font-size: 50px; 
+    margin-bottom: 35px;  /* Fixed typo: removed double margin-bottom */
+}
+
+h2 { 
+    font-size: 34px; 
+    margin-bottom: 30px; 
+    line-height: 30px; 
+}
+
+h3 { 
+    font-size: 20px; 
+    line-height: 24px; 
+}
+
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 12px; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #fff;
+}
+
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+
+.h10 { height: 10px; }
+.h20 { height: 20px; }
+.h30 { height: 30px; }
+.h60 { height: 60px; }
+
+/* Uncommented Image Border Styles */
+
+
+.img-gif{
+	margin-left: -100px;
+}
+
+.img_border { 
+    border: 1px solid #f4cd30; 
+    background: #cda917; 
+}
+
+.img_border_s { padding: 4px; }
+.img_border_b { padding: 7px; }
+.img_nom { display: block; margin-bottom: 15px; }
+.img_fl { float: left; display: block; margin: 1px 20px 8px 0; }
+.img_fr { float: right; margin: 1px 0 8px 20px; }
+
+p { margin: 0 0 10px 0; padding: 0; }
+em { color: #000; }
+hr { 
+    clear: both; 
+    padding-top: 5px; 
+    margin-bottom: 5px; 
+    border: none; 
+    background: url(images/tooplate_divider.png) bottom repeat-x; 
+}
+hr.m30 { margin-bottom: 30px; padding-top: 20px; }
+hr.m60 { margin-bottom: 60px; padding-top: 40px; }
+
+label { display: block; }
+/*input { margin-bottom: 10px; }*/
+
+a:link, a:visited { color: #000; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active, a:hover { outline: none; }
+
+a.more { 
+    display: inline-block; 
+    text-decoration: none; 
+    margin-top: 15px; 
+    color: #333; 
+    width: 91px; 
+    height: 31px; 
+    line-height: 29px; 
+    text-align: center; 
+    background: url(images/tooplate_more.png); 
+}
+
+ul.nobullet { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+}
+
+ul.nobullet li { 
+    margin: 0; 
+    padding: 10px 20px 10px 10px; 
+    float: left; 
+}
+
+ul.list_bullet { 
+    margin: 10px 0 10px 15px; 
+    padding: 0; 
+    list-style: none; 
+}
+
+ul.list_bullet li { 
+    color: #333; 
+    margin: 0 0 7px 0; 
+    padding: 0 0 0 20px; 
+    background: url(images/tooplate_bullet.png) no-repeat scroll 0 5px;  
+}
+
+ul.list_bullet li a { 
+    color: #333; 
+    font-weight: normal; 
+    text-decoration: none; 
+}
+
+ul.list_bullet li a:hover { 
+    color: #333; 
+}
+
+/** Columns **/
+
+.content_wrapper { overflow: hidden; width: 100%; }
+.content_mb_30 { margin-bottom: 30px; }
+.content_mb_60 { margin-bottom: 60px; }
+
+.col_2 { width: 420px; }
+.col_3 { width: 260px; }
+.col_4 { width: 500px; }
+.col_23 { width: 580px; }
+.col_34 { width: 660px; }
+
+.col_2, .col_3, .col_4, .col_23, .col_34 { 
+    float: left; 
+    margin: 0 0 0 0; 
+}
+
+.left { float: left; margin-left: 200px; }
+.right { float: right; }
+.no_margin_center { margin-left: 200px; }
+.no_margin_right { margin-right: 0 !important; }
+.margin_bottom { margin-bottom: 30px; }
+
+#tooplate_wrapper {
+    width: 962px;
+    margin: 0 auto;
+    padding: 60px 10px 0;
+    background: url(images/bg\ admin.png) center top no-repeat;
+	
+}
+
+#tooplate_header {
+    position: relative;
+    width: 962px;
+    margin-top: 50px;
+}
+#tooplate_header1 {
+    position: relative;
+    width: 962px;
+    margin-top: 150px;
+}
+
+
+#tooplate_slider {
+    clear: both;
+    width: 878px;
+    height: 243px;
+    padding: 25px 42px 50px;
+    background: url(images/tooplate_slider_frame.png);
+}
+
+#tooplate_main { 
+    clear: both; 
+    margin: 0; 
+    padding: 50px 31px; 
+}
+
+#tooplate_content { width: 580px; }
+#tooplate_sidebar { width: 260px; }
+
+#tooplate_footer_wrapper {
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background: #e056562a;
+}
+
+#tooplate_footer {
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #33333300; /* Dark background */
+    color: #fff; /* White text */
+    text-align: center; /* Centered text */
+    padding: 10px; /* Add some padding */
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Full width */
+	margin-top: 100px;
+}
+
+
+a.sitetitle { 
+    display: block; 
+    font-size: 12px; 
+    margin: 0 auto; 
+    font-family: Georgia, "Times New Roman", Times, serif; 
+    width: 400px; 
+    height: 50px; 
+    color: #acacac; 
+    text-indent: -10000px; 
+    margin-bottom: 30px; 
+}
+
+#tooplate_menu { 
+    clear: both; 
+	color:#fff;
+    width: 900px; 
+    height: 28px; 
+    margin-top: -150px; 
+    margin-bottom: 5px; 
+    padding: 15px 31px 14px; 
+    background: rgb(132, 17, 17);
+    border-radius: 0 0 10px 10px; 
+}
+
+#tooplate_menu ul { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+}
+
+#tooplate_menu ul li { 
+    display: block; 
+    float: left; 
+    margin: 0; 
+    padding: 0; 
+}
+
+#tooplate_menu ul li a { 
+    display: block; 
+    float: left; 
+    margin-right: 10px; 
+    width: 83px; 
+    height: 28px; 
+    line-height: 28px; 
+    text-align: center; 
+    color: #000000; 
+}
+
+#tooplate_menu ul li a:hover { 
+    text-shadow: 1px 1px 1px #000; 
+    text-decoration: none; 
+}
+
+#tooplate_menu ul li a.selected { 
+    background: hsl(342, 87%, 51%); 
+}
+
+#home_about { 
+    margin-bottom: 40px; 
+    padding-bottom: 40px; 
+    background: url(images/tooplate_divider.png) repeat-x bottom; 
+}
+
+#home_about h1 { 
+    font-style: italic; 
+    padding-top: 40px; 
+}
+
+#home_about img { 
+    margin-right: 60px; 
+}
+
+#home_about p { 
+    font-size: 20px; 
+    line-height: 24px; 
+    font-family: Georgia, "Times New Roman", Times, serif; 
+}
+
+.news_list { 
+    margin-bottom: 15px; 
+    padding-bottom: 15px; 
+    border-bottom: 1px dashed #333; 
+}
+
+.more_button { 
+    display: block; 
+    float: right; 
+    width: 96px; 
+    height: 24px; 
+    line-height: 24px; 
+    background: url(images/tooplate_button.png); 
+    text-align: center; 
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.more_button:hover { 
+    background-position: left bottom; 
+}
